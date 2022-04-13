@@ -77,6 +77,7 @@ if(temperature >= 80 && rain === true) {
 } else if(temperature <= 60 && rain !== true) {
   console.log("You should wear a heavy jacket today.")
 } 
+
 ////////// PROBLEM 5 //////////
 
 /*
@@ -87,12 +88,16 @@ if(temperature >= 80 && rain === true) {
 for (let i = 0; i < 10; i++) {
   console.log("Hello");
 }
+
 ////////// PROBLEM 6 //////////
 
 /*
   Create a for-loop that runs 10 times, logging the numbers 1 through 10. Ex, on the first iteration it would log 1, on the second iteration it would log 2.
 */
 
+for (let i = 1; i <= 10; i++) {
+  console.log(i);
+}
 //CODE HERE
 
 ////////// PROBLEM 7 //////////
