@@ -123,7 +123,7 @@ let passingScore = 7;
 
 while (score < 7) {
   console.log("Your score is not high enough.")
-  score += 1
+  score += 1;
 }
 
 ////////// INTERMEDIATE PROBLEMS //////////
@@ -143,18 +143,21 @@ let changeMyMind = true;
 if(changeMyMind === true) {
   console.log(changeMyMind)
   changeMyMind = false;
-  console.log(`changeMyMind has changed to "${changeMyMind}"`)
+  console.log(`changeMyMind has changed to "${changeMyMind}"`);
 } else if (changeMyMind !== true) {
   console.log(changeMyMind)
   changeMyMind = true;
-  console.log(`changeMyMind has changed to "${changeMyMind}"`)
+  console.log(`changeMyMind has changed to "${changeMyMind}"`);
 }
 
 ////////// PROBLEM 10 //////////
 // Using the "not" operator (!), change the current value of changeMyMind to true (it should currently be set to false due to the if-else statement in Problem 9). After you change the value of changeMyMind, console.log it's new value (it should now read true).
 
 //CODE HERE
-
+if (changeMyMind !== true) {
+  changeMyMind = true
+  console.log(changeMyMind);
+}
 ////////// ADVANCED PROBLEMS //////////
 
 ////////// PROBLEM 11 //////////
